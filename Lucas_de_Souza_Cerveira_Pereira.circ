@@ -132,9 +132,78 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(140,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(160,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(210,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(270,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(310,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(360,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(400,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(450,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(490,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(560,190)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+    </comp>
     <comp lib="8" loc="(200,35)" name="Text">
       <a name="text" val="Lucas de Souza Cerveira Pereira"/>
     </comp>
+    <comp loc="(260,190)" name="registradorsetenable"/>
+    <comp loc="(360,190)" name="registradorsetenable"/>
+    <comp loc="(440,190)" name="registradorsetenable"/>
+    <comp loc="(520,190)" name="registradorsetenable"/>
+    <wire from="(140,280)" to="(160,280)"/>
+    <wire from="(160,180)" to="(230,180)"/>
+    <wire from="(160,190)" to="(160,280)"/>
+    <wire from="(160,190)" to="(230,190)"/>
+    <wire from="(210,280)" to="(230,280)"/>
+    <wire from="(230,200)" to="(230,280)"/>
+    <wire from="(260,190)" to="(270,190)"/>
+    <wire from="(270,180)" to="(270,190)"/>
+    <wire from="(270,180)" to="(330,180)"/>
+    <wire from="(270,280)" to="(280,280)"/>
+    <wire from="(280,190)" to="(280,280)"/>
+    <wire from="(280,190)" to="(330,190)"/>
+    <wire from="(310,280)" to="(330,280)"/>
+    <wire from="(330,200)" to="(330,280)"/>
+    <wire from="(360,180)" to="(360,190)"/>
+    <wire from="(360,180)" to="(410,180)"/>
+    <wire from="(360,280)" to="(370,280)"/>
+    <wire from="(370,190)" to="(370,280)"/>
+    <wire from="(370,190)" to="(410,190)"/>
+    <wire from="(400,280)" to="(410,280)"/>
+    <wire from="(410,200)" to="(410,280)"/>
+    <wire from="(440,180)" to="(440,190)"/>
+    <wire from="(440,180)" to="(490,180)"/>
+    <wire from="(450,280)" to="(460,280)"/>
+    <wire from="(460,190)" to="(460,280)"/>
+    <wire from="(460,190)" to="(490,190)"/>
+    <wire from="(490,200)" to="(490,250)"/>
+    <wire from="(490,250)" to="(500,250)"/>
+    <wire from="(490,280)" to="(500,280)"/>
+    <wire from="(500,250)" to="(500,280)"/>
+    <wire from="(520,190)" to="(560,190)"/>
   </circuit>
   <circuit name="somador_8bit">
     <a name="circuit" val="somador_8bit"/>
