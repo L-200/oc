@@ -132,6 +132,9 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(120,320)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
     <comp lib="0" loc="(150,270)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="width" val="8"/>
@@ -181,6 +184,9 @@
       <a name="width" val="8"/>
     </comp>
     <comp lib="1" loc="(1020,480)" name="OR Gate"/>
+    <comp lib="1" loc="(180,270)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
     <comp lib="4" loc="(1050,240)" name="Register">
       <a name="appearance" val="classic"/>
     </comp>
@@ -207,9 +213,11 @@
     <wire from="(1030,260)" to="(1030,270)"/>
     <wire from="(1050,240)" to="(1090,240)"/>
     <wire from="(1090,240)" to="(1090,250)"/>
+    <wire from="(120,320)" to="(170,320)"/>
     <wire from="(1330,330)" to="(1440,330)"/>
     <wire from="(1440,330)" to="(1440,600)"/>
-    <wire from="(150,270)" to="(180,270)"/>
+    <wire from="(150,270)" to="(160,270)"/>
+    <wire from="(170,280)" to="(170,320)"/>
     <wire from="(170,360)" to="(180,360)"/>
     <wire from="(170,390)" to="(250,390)"/>
     <wire from="(180,240)" to="(180,270)"/>
